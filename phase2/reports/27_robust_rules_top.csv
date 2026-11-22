@@ -1,0 +1,55 @@
+season,luật,n_days,confidence,base,lift,share_years_lift>1,n_years,lift_2021_25
+Đông,cháy nhiều + gió tối−sáng TB  →  S1_U,25,0.532,0.215,2.471,0.8,5,2.768
+Đông,gió tối−sáng TB + ẩm thấp  →  S1_U,26,0.51,0.215,2.369,1.0,6,2.175
+Đông,BLH cao + gió tối−sáng giảm + ẩm thấp  →  S2_tang,47,0.603,0.24,2.51,1.0,8,2.544
+Đông,BLH cao + hướng ĐBắc + ẩm thấp  →  S2_tang,48,0.565,0.24,2.352,1.0,8,2.516
+Đông,BLH TB + biên độ nhiệt lớn + gió tối−sáng tăng  →  S3_giam,26,0.565,0.195,2.893,1.0,5,2.563
+Đông,biên độ nhiệt lớn + gió tối−sáng tăng  →  S3_giam,47,0.431,0.195,2.207,1.0,10,2.216
+Đông,gió mạnh + hướng ĐNam  →  S4_phang,57,0.679,0.349,1.942,1.0,7,2.352
+Đông,gió TB + gió tối−sáng tăng  →  S4_phang,40,0.571,0.349,1.636,0.778,9,1.556
+Đông,gió tối−sáng giảm + hướng ĐBắc + mưa ≥1mm  →  mức thấp,27,0.491,0.096,5.112,1.0,5,6.245
+Đông,gió tối−sáng giảm + mưa ≥1mm  →  mức thấp,27,0.429,0.096,4.463,1.0,5,5.814
+Đông,gió mạnh + hướng ĐNam  →  mức TB,61,0.726,0.361,2.012,1.0,7,2.314
+Đông,gió mạnh + ẩm cao  →  mức TB,54,0.711,0.361,1.969,1.0,6,2.344
+Đông,biên độ nhiệt lớn + hướng ĐBắc + khô <1mm  →  mức cao,53,0.964,0.543,1.775,1.0,5,1.712
+Đông,biên độ nhiệt lớn + gió yếu  →  mức cao,88,0.946,0.543,1.742,1.0,8,1.765
+Xuân,hướng ĐBắc  →  S1_U,23,0.245,0.117,2.089,1.0,7,1.412
+Xuân,mưa sáng  →  S1_U,20,0.225,0.117,1.918,0.857,7,1.329
+Xuân,gió tối−sáng giảm + hướng ĐBắc  →  S2_tang,30,0.492,0.169,2.917,1.0,5,3.324
+Xuân,gió tối−sáng giảm + ẩm thấp  →  S2_tang,23,0.479,0.169,2.843,1.0,5,3.324
+Xuân,gió tối−sáng tăng  →  S3_giam,28,0.239,0.149,1.611,0.857,7,1.654
+Xuân,biên độ nhiệt lớn + ẩm TB  →  S4_phang,38,0.826,0.566,1.46,1.0,4,1.317
+Xuân,gió mạnh + khô <1mm  →  S4_phang,44,0.772,0.566,1.365,0.8,5,1.299
+Xuân,BLH cao  →  mức thấp,22,0.224,0.103,2.183,1.0,6,2.568
+Xuân,biên độ nhiệt nhỏ  →  mức thấp,23,0.198,0.103,1.928,1.0,7,2.602
+Xuân,biên độ nhiệt TB + gió mạnh  →  mức TB,40,0.851,0.58,1.467,1.0,4,1.58
+Xuân,gió mạnh + hướng ĐNam + khô <1mm  →  mức TB,44,0.846,0.58,1.459,1.0,5,1.395
+Xuân,gió tối−sáng tăng + ẩm thấp  →  mức cao,33,0.786,0.317,2.477,1.0,4,2.208
+Xuân,biên độ nhiệt lớn + hướng ĐNam + ẩm thấp  →  mức cao,33,0.75,0.317,2.365,1.0,4,2.016
+Hè,BLH cao + biên độ nhiệt lớn + hướng Tây  →  S1_U,32,0.696,0.224,3.112,0.75,4,2.852
+Hè,cháy nhiều + hướng Tây  →  S1_U,32,0.604,0.224,2.701,1.0,6,2.852
+Hè,hướng ĐBắc + mưa sáng  →  S2_tang,33,0.277,0.171,1.626,0.75,8,1.569
+Hè,gió tối−sáng giảm  →  S2_tang,63,0.223,0.171,1.31,1.0,8,1.334
+Hè,BLH TB + cháy nhiều  →  S3_giam,27,0.297,0.193,1.538,0.833,6,1.627
+Hè,gió yếu  →  S3_giam,79,0.28,0.193,1.452,0.778,9,1.182
+Hè,BLH cao + gió tối−sáng tăng  →  S4_phang,63,0.67,0.413,1.623,1.0,6,1.56
+Hè,BLH cao + hướng ĐNam  →  S4_phang,92,0.605,0.413,1.466,1.0,7,1.45
+Hè,gió mạnh + gió tối−sáng giảm + hướng ĐNam  →  mức thấp,46,0.868,0.412,2.108,1.0,6,2.277
+Hè,biên độ nhiệt nhỏ + gió mạnh + gió tối−sáng giảm  →  mức thấp,47,0.855,0.412,2.075,1.0,6,1.813
+Hè,biên độ nhiệt lớn + ẩm TB  →  mức TB,57,0.679,0.501,1.354,1.0,6,1.239
+Hè,gió yếu + ẩm thấp  →  mức cao,26,0.419,0.087,4.817,1.0,6,4.387
+Hè,gió yếu + khô <1mm  →  mức cao,25,0.362,0.087,4.162,1.0,7,4.212
+Thu,biên độ nhiệt lớn + ẩm thấp  →  S1_U,47,0.825,0.408,2.019,1.0,6,2.072
+Thu,cháy nhiều + ẩm thấp  →  S1_U,51,0.81,0.408,1.982,1.0,7,2.055
+Thu,gió tối−sáng giảm  →  S2_tang,34,0.241,0.153,1.58,0.778,9,1.805
+Thu,biên độ nhiệt nhỏ  →  S2_tang,32,0.227,0.153,1.487,0.889,9,1.143
+Thu,hướng ĐNam  →  S3_giam,47,0.373,0.204,1.826,0.889,9,1.607
+Thu,gió tối−sáng tăng  →  S3_giam,49,0.343,0.204,1.678,0.889,9,1.546
+Thu,cuối tuần + mưa ≥1mm  →  S4_phang,20,0.513,0.235,2.185,0.75,4,3.018
+Thu,hướng ĐNam  →  S4_phang,50,0.397,0.235,1.69,0.889,9,1.725
+Thu,gió mạnh + ẩm cao  →  mức thấp,27,0.628,0.155,4.053,1.0,4,5.641
+Thu,gió mạnh + mưa sáng  →  mức thấp,25,0.556,0.155,3.586,1.0,4,4.583
+Thu,gió TB + mưa ≥1mm  →  mức TB,29,0.69,0.406,1.7,1.0,5,1.924
+Thu,gió TB + ẩm cao  →  mức TB,29,0.644,0.406,1.587,1.0,5,1.924
+Thu,gió yếu + ẩm TB  →  mức cao,57,0.838,0.439,1.91,1.0,6,2.054
+Thu,biên độ nhiệt lớn + gió yếu  →  mức cao,62,0.838,0.439,1.909,1.0,7,1.837

@@ -1,0 +1,24 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Raw downloads (re-created from the .tar.gz caches or the APIs)
+phase1/data/raw/
+
+# Large duplicate of the parquet file (re-created by notebook 01)
+phase1/data/clean/hanoi_hourly_clean.csv
+
+# Credentials: never commit
+kaggle.json
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
