@@ -4,6 +4,10 @@ Dự án tự học **data analysis + data mining** trên dữ liệu PM2.5 theo
 
 **Câu hỏi:** Ở Hà Nội có những kiểu ngày ô nhiễm nào, và mỗi kiểu thường đi kèm với điều kiện gì? Mọi kết quả là **mối liên hệ, không phải nhân quả**.
 
+**Bài viết ngắn cho người không chuyên:** [Hà Nội có những kiểu ngày ô nhiễm nào?](article/bai_viet_vi.md) · [English version](article/article_en.md)
+
+![Bốn kiểu hình dạng ngày](article/figures/02_day_shapes_vi.png)
+
 ## Dữ liệu
 - PM2.5: Bộ Ngoại giao Mỹ (AirNow DOS), lấy từ kho lưu trữ mở OpenAQ (S3). Dữ liệu của Chính phủ Mỹ, OpenAQ ghi "US Public Domain".
 - Thời tiết: Open-Meteo (tái phân tích ERA5), CC BY 4.0.

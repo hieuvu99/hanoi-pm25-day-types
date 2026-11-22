@@ -6,6 +6,10 @@ A self-study **data analysis + data mining** project on hourly PM2.5 at the U.S.
 
 > Notebooks, comments and figure labels are in **Vietnamese** (English summary below). All results describe **associations, not causes**.
 
+**Short read for non-specialists:** [What kinds of polluted days does Hanoi have?](article/article_en.md) (English) · [Bản tiếng Việt](article/bai_viet_vi.md)
+
+![Four shapes of a day](article/figures/02_day_shapes_en.png)
+
 ## Data
 
 | Source | What | Resolution | License |
@@ -76,6 +80,7 @@ jupyter nbconvert --to notebook --execute --inplace 03_eda.ipynb 04_clustering.i
 ```
 phase1/  01–02 notebooks, data/clean (parquet + csv), raw cache (.tar.gz), reports/
 phase2/  03–06 notebooks, data/ (cluster labels, rules, anomalies), reports/ (figures, tables)
+article/ short write-up (EN + VI) with figures; make_figures.py regenerates them
 ```
 
 ## License
