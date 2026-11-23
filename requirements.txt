@@ -10,5 +10,9 @@ mlxtend>=0.23
 requests>=2.31
 lunardate>=0.2
 jupyter
+# run_pipeline.py and the _make_notebook_*.py generators
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25
 # optional: DTW comparison in 04_clustering
 tslearn>=0.6

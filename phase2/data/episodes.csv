@@ -1,0 +1,231 @@
+start,end,n_days,season,year,complete,near_fault,pm25_peak,seq_shape,seq_daytype,sh_before,sh_first,sh_last,sh_after,lv_after
+2016-02-03,2016-02-04,2,Đông,2016,False,False,87.39545454545454,S2_tang S2_tang S3_giam,S2_tang|TB S2_tang|cao S3_giam|cao,S2_tang,S2_tang,S3_giam,,
+2016-02-09,2016-02-10,2,Đông,2016,False,False,61.458333333333336,S4_phang S4_phang S4_phang,S4_phang|cao S4_phang|cao S4_phang|TB,,S4_phang,S4_phang,S4_phang,TB
+2016-02-12,2016-02-14,3,Đông,2016,True,False,94.625,S4_phang S2_tang S2_tang S3_giam S1_U,S4_phang|TB S2_tang|cao S2_tang|cao S3_giam|cao S1_U|TB,S4_phang,S2_tang,S3_giam,S1_U,TB
+2016-02-19,2016-02-19,1,Đông,2016,False,False,117.67916666666667,S4_phang,S4_phang|cao,,S4_phang,S4_phang,,
+2016-02-21,2016-02-22,2,Đông,2016,False,False,90.11818181818181,S3_giam S4_phang S1_U,S3_giam|cao S4_phang|cao S1_U|TB,,S3_giam,S4_phang,S1_U,TB
+2016-02-28,2016-03-01,3,Đông,2016,False,False,123.88333333333333,S1_U S3_giam S3_giam,S1_U|cao S3_giam|cao S3_giam|cao,,S1_U,S3_giam,,
+2016-03-15,2016-03-15,1,Xuân,2016,False,False,59.8125,S2_tang S4_phang,S2_tang|TB S4_phang|cao,S2_tang,S4_phang,S4_phang,,
+2016-03-19,2016-03-19,1,Xuân,2016,False,False,54.92916666666667,S2_tang S4_phang,S2_tang|cao S4_phang|TB,,S2_tang,S2_tang,S4_phang,TB
+2016-03-23,2016-03-23,1,Xuân,2016,True,False,70.275,S3_giam S4_phang S1_U,S3_giam|TB S4_phang|cao S1_U|thấp,S3_giam,S4_phang,S4_phang,S1_U,thấp
+2016-03-26,2016-03-28,3,Xuân,2016,False,False,125.87083333333334,S2_tang S2_tang S2_tang S3_giam,S2_tang|TB S2_tang|cao S2_tang|cao S3_giam|cao,S2_tang,S2_tang,S3_giam,,
+2016-03-31,2016-04-01,2,Xuân,2016,False,False,80.10000000000001,S4_phang S3_giam S4_phang,S4_phang|cao S3_giam|cao S4_phang|TB,,S4_phang,S3_giam,S4_phang,TB
+2016-04-03,2016-04-03,1,Xuân,2016,True,False,52.354166666666664,S4_phang S4_phang S4_phang,S4_phang|TB S4_phang|cao S4_phang|TB,S4_phang,S4_phang,S4_phang,S4_phang,TB
+2016-04-10,2016-04-11,2,Xuân,2016,True,False,58.5875,S3_giam S4_phang S4_phang S4_phang,S3_giam|TB S4_phang|cao S4_phang|cao S4_phang|TB,S3_giam,S4_phang,S4_phang,S4_phang,TB
+2016-04-13,2016-04-17,5,Xuân,2016,True,False,71.6875,S4_phang S4_phang S2_tang S4_phang S4_phang S4_phang S2_tang,S4_phang|TB S4_phang|cao S2_tang|cao S4_phang|cao S4_phang|cao S4_phang|cao S2_tang|TB,S4_phang,S4_phang,S4_phang,S2_tang,TB
+2016-05-11,2016-05-11,1,Hè,2016,True,False,51.833333333333336,S1_U S3_giam S4_phang,S1_U|TB S3_giam|cao S4_phang|TB,S1_U,S3_giam,S3_giam,S4_phang,TB
+2016-06-19,2016-06-19,1,Hè,2016,True,False,68.07083333333334,S4_phang S1_U S2_tang,S4_phang|TB S1_U|cao S2_tang|TB,S4_phang,S1_U,S1_U,S2_tang,TB
+2016-07-08,2016-07-08,1,Hè,2016,True,True,50.42916666666667,S1_U S3_giam S2_tang,S1_U|TB S3_giam|cao S2_tang|TB,S1_U,S3_giam,S3_giam,S2_tang,TB
+2016-08-01,2016-08-01,1,Hè,2016,True,False,54.37083333333334,S4_phang S3_giam S3_giam,S4_phang|TB S3_giam|cao S3_giam|TB,S4_phang,S3_giam,S3_giam,S3_giam,TB
+2016-08-25,2016-08-26,2,Hè,2016,True,False,62.59166666666667,S3_giam S3_giam S3_giam S3_giam,S3_giam|TB S3_giam|cao S3_giam|cao S3_giam|TB,S3_giam,S3_giam,S3_giam,S3_giam,TB
+2016-08-30,2016-08-30,1,Hè,2016,True,False,76.825,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2016-09-04,2016-09-05,2,Hè,2016,True,False,81.24166666666666,S4_phang S2_tang S3_giam S2_tang,S4_phang|TB S2_tang|cao S3_giam|cao S2_tang|TB,S4_phang,S2_tang,S3_giam,S2_tang,TB
+2016-09-08,2016-09-08,1,Hè,2016,True,False,51.25416666666666,S4_phang S4_phang S3_giam,S4_phang|TB S4_phang|cao S3_giam|TB,S4_phang,S4_phang,S4_phang,S3_giam,TB
+2016-09-17,2016-09-23,7,Hè,2016,False,False,86.00833333333333,S3_giam S3_giam S3_giam S1_U S1_U S1_U S3_giam S3_giam,S3_giam|cao S3_giam|cao S3_giam|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|TB,,S3_giam,S3_giam,S3_giam,TB
+2016-09-28,2016-09-29,2,Hè,2016,True,False,65.00952380952381,S2_tang S1_U S1_U S4_phang,S2_tang|TB S1_U|cao S1_U|cao S4_phang|TB,S2_tang,S1_U,S1_U,S4_phang,TB
+2016-10-03,2016-10-17,15,Thu,2016,True,False,116.64583333333333,S1_U S1_U S1_U S3_giam S1_U S1_U S1_U S3_giam S4_phang S4_phang S1_U S1_U S1_U S4_phang S4_phang S1_U S1_U,S1_U|TB S1_U|cao S1_U|cao S3_giam|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S4_phang|cao S4_phang|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S4_phang|cao S1_U|cao S1_U|TB,S1_U,S1_U,S1_U,S1_U,TB
+2016-10-21,2016-10-24,4,Thu,2016,True,False,72.40833333333333,S2_tang S1_U S4_phang S1_U S4_phang S1_U,S2_tang|TB S1_U|cao S4_phang|cao S1_U|cao S4_phang|cao S1_U|TB,S2_tang,S1_U,S4_phang,S1_U,TB
+2016-11-04,2016-11-07,4,Thu,2016,True,False,103.65833333333335,S1_U S1_U S1_U S4_phang S4_phang S3_giam,S1_U|TB S1_U|cao S1_U|cao S4_phang|cao S4_phang|cao S3_giam|TB,S1_U,S1_U,S4_phang,S3_giam,TB
+2016-11-12,2016-11-13,2,Thu,2016,True,False,110.16666666666667,S1_U S4_phang S3_giam S3_giam,S1_U|TB S4_phang|cao S3_giam|cao S3_giam|TB,S1_U,S4_phang,S3_giam,S3_giam,TB
+2016-11-19,2016-11-20,2,Thu,2016,True,False,65.61666666666666,S1_U S2_tang S4_phang S2_tang,S1_U|TB S2_tang|cao S4_phang|cao S2_tang|TB,S1_U,S2_tang,S4_phang,S2_tang,TB
+2016-11-28,2016-11-30,3,Thu,2016,True,False,81.33333333333333,S1_U S1_U S3_giam S1_U S2_tang,S1_U|TB S1_U|cao S3_giam|cao S1_U|cao S2_tang|TB,S1_U,S1_U,S1_U,S2_tang,TB
+2016-12-02,2016-12-13,12,Đông,2016,True,False,147.62083333333334,S2_tang S1_U S1_U S1_U S4_phang S1_U S1_U S1_U S4_phang S4_phang S3_giam S3_giam S4_phang S4_phang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S4_phang|cao S3_giam|cao S3_giam|cao S4_phang|cao S4_phang|TB,S2_tang,S1_U,S4_phang,S4_phang,TB
+2016-12-16,2016-12-19,4,Đông,2016,True,False,151.46666666666664,S1_U S4_phang S3_giam S4_phang S3_giam S4_phang,S1_U|TB S4_phang|cao S3_giam|cao S4_phang|cao S3_giam|cao S4_phang|TB,S1_U,S4_phang,S3_giam,S4_phang,TB
+2016-12-23,2016-12-24,2,Đông,2016,True,False,67.85416666666667,S1_U S1_U S4_phang S4_phang,S1_U|TB S1_U|cao S4_phang|cao S4_phang|TB,S1_U,S1_U,S4_phang,S4_phang,TB
+2016-12-29,2017-01-04,7,Đông,2016,False,False,140.63750000000002,S1_U S1_U S4_phang S3_giam S4_phang S2_tang S3_giam S2_tang,S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao S4_phang|cao S2_tang|cao S3_giam|cao S2_tang|TB,,S1_U,S3_giam,S2_tang,TB
+2017-01-07,2017-01-10,4,Đông,2017,True,True,79.625,S2_tang S4_phang S2_tang S2_tang S3_giam S3_giam,S2_tang|TB S4_phang|cao S2_tang|cao S2_tang|cao S3_giam|cao S3_giam|TB,S2_tang,S4_phang,S3_giam,S3_giam,TB
+2017-01-18,2017-01-19,2,Đông,2017,True,False,141.70416666666668,S1_U S2_tang S4_phang S1_U,S1_U|TB S2_tang|cao S4_phang|cao S1_U|TB,S1_U,S2_tang,S4_phang,S1_U,TB
+2017-01-21,2017-01-27,7,Đông,2017,True,False,128.85,S1_U S3_giam S2_tang S1_U S3_giam S4_phang S4_phang S3_giam S3_giam,S1_U|TB S3_giam|cao S2_tang|cao S1_U|cao S3_giam|cao S4_phang|cao S4_phang|cao S3_giam|cao S3_giam|TB,S1_U,S3_giam,S3_giam,S3_giam,TB
+2017-01-31,2017-01-31,1,Đông,2017,True,False,62.95416666666667,S4_phang S4_phang S4_phang,S4_phang|TB S4_phang|cao S4_phang|TB,S4_phang,S4_phang,S4_phang,S4_phang,TB
+2017-02-10,2017-02-15,6,Đông,2017,True,False,142.26666666666668,S2_tang S2_tang S4_phang S1_U S4_phang S4_phang S3_giam S3_giam,S2_tang|thấp S2_tang|cao S4_phang|cao S1_U|cao S4_phang|cao S4_phang|cao S3_giam|cao S3_giam|TB,S2_tang,S2_tang,S3_giam,S3_giam,TB
+2017-02-26,2017-03-04,7,Đông,2017,True,False,106.06363636363636,S1_U S1_U S1_U S4_phang S3_giam S4_phang S4_phang S4_phang S4_phang,S1_U|TB S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|TB,S1_U,S1_U,S4_phang,S4_phang,TB
+2017-03-07,2017-03-07,1,Xuân,2017,False,False,56.762499999999996,S1_U S3_giam,S1_U|TB S3_giam|cao,S1_U,S3_giam,S3_giam,,
+2017-03-10,2017-03-11,2,Xuân,2017,False,False,94.28750000000001,S2_tang S4_phang S4_phang,S2_tang|cao S4_phang|cao S4_phang|TB,,S2_tang,S4_phang,S4_phang,TB
+2017-03-28,2017-03-29,2,Xuân,2017,True,False,80.41250000000001,S2_tang S4_phang S3_giam S4_phang,S2_tang|TB S4_phang|cao S3_giam|cao S4_phang|TB,S2_tang,S4_phang,S3_giam,S4_phang,TB
+2017-04-02,2017-04-03,2,Xuân,2017,True,False,59.37083333333334,S1_U S3_giam S3_giam S4_phang,S1_U|TB S3_giam|cao S3_giam|cao S4_phang|TB,S1_U,S3_giam,S3_giam,S4_phang,TB
+2017-04-10,2017-04-11,2,Xuân,2017,False,False,56.979166666666664,S4_phang S4_phang S4_phang,S4_phang|TB S4_phang|cao S4_phang|cao,S4_phang,S4_phang,S4_phang,,
+2017-04-13,2017-04-13,1,Xuân,2017,False,False,52.8125,S1_U S3_giam,S1_U|cao S3_giam|TB,,S1_U,S1_U,S3_giam,TB
+2017-05-27,2017-05-29,3,Hè,2017,True,False,72.85833333333333,S1_U S3_giam S1_U S3_giam S4_phang,S1_U|TB S3_giam|cao S1_U|cao S3_giam|cao S4_phang|TB,S1_U,S3_giam,S3_giam,S4_phang,TB
+2017-06-15,2017-06-16,2,Hè,2017,True,False,57.125,S3_giam S2_tang S1_U S2_tang,S3_giam|TB S2_tang|cao S1_U|cao S2_tang|thấp,S3_giam,S2_tang,S1_U,S2_tang,thấp
+2017-08-23,2017-08-23,1,Hè,2017,True,False,52.60434782608695,S2_tang S3_giam S2_tang,S2_tang|TB S3_giam|cao S2_tang|thấp,S2_tang,S3_giam,S3_giam,S2_tang,thấp
+2017-09-12,2017-09-12,1,Hè,2017,True,False,61.87142857142857,S1_U S3_giam S1_U,S1_U|thấp S3_giam|cao S1_U|TB,S1_U,S3_giam,S3_giam,S1_U,TB
+2017-09-24,2017-09-24,1,Hè,2017,False,False,58.01428571428571,S3_giam S2_tang,S3_giam|TB S2_tang|cao,S3_giam,S2_tang,S2_tang,,
+2017-10-23,2017-11-07,16,Thu,2017,False,False,132.8318181818182,S1_U S3_giam S1_U S4_phang S4_phang S1_U S1_U S3_giam S1_U S1_U S1_U S1_U S1_U S1_U S1_U S4_phang S3_giam,S1_U|TB S3_giam|cao S1_U|cao S4_phang|cao S4_phang|cao S1_U|cao S1_U|cao S3_giam|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao,S1_U,S3_giam,S3_giam,,
+2017-11-11,2017-11-13,3,Thu,2017,False,False,105.96666666666667,S3_giam S3_giam S3_giam S4_phang,S3_giam|cao S3_giam|cao S3_giam|cao S4_phang|TB,,S3_giam,S3_giam,S4_phang,TB
+2017-11-26,2017-11-28,3,Thu,2017,False,False,116.57727272727271,S1_U S2_tang S1_U S1_U,S1_U|TB S2_tang|cao S1_U|cao S1_U|cao,S1_U,S2_tang,S1_U,,
+2017-12-02,2017-12-04,3,Đông,2017,True,False,108.8736842105263,S1_U S2_tang S1_U S3_giam S1_U,S1_U|TB S2_tang|cao S1_U|cao S3_giam|cao S1_U|TB,S1_U,S2_tang,S3_giam,S1_U,TB
+2017-12-28,2017-12-29,2,Đông,2017,False,False,104.93333333333334,S2_tang S4_phang S3_giam,S2_tang|cao S4_phang|cao S3_giam|TB,,S2_tang,S4_phang,S3_giam,TB
+2017-12-31,2018-01-03,4,Đông,2017,False,False,156.66190476190476,S3_giam S1_U S4_phang S4_phang S3_giam,S3_giam|TB S1_U|cao S4_phang|cao S4_phang|cao S3_giam|cao,S3_giam,S1_U,S3_giam,,
+2018-01-11,2018-01-16,6,Đông,2018,False,False,125.8,S1_U S1_U S1_U S1_U S4_phang S3_giam S2_tang,S1_U|TB S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao S2_tang|cao,S1_U,S1_U,S2_tang,,
+2018-01-18,2018-01-19,2,Đông,2018,False,False,85.67,S3_giam S3_giam,S3_giam|cao S3_giam|cao,,S3_giam,S3_giam,,
+2018-01-30,2018-01-30,1,Đông,2018,False,False,61.800000000000004,S2_tang,S2_tang|cao,,S2_tang,S2_tang,,
+2018-02-01,2018-02-05,5,Đông,2018,False,False,67.5391304347826,S1_U S3_giam S2_tang S4_phang S1_U,S1_U|cao S3_giam|cao S2_tang|cao S4_phang|cao S1_U|cao,,S1_U,S1_U,,
+2018-02-07,2018-02-08,2,Đông,2018,False,False,70.41052631578947,S4_phang S1_U,S4_phang|cao S1_U|cao,,S4_phang,S1_U,,
+2018-02-14,2018-02-14,1,Đông,2018,False,False,145.77272727272728,S3_giam,S3_giam|cao,,S3_giam,S3_giam,,
+2018-03-22,2018-03-23,2,Xuân,2018,False,False,72.9388888888889,S4_phang S3_giam,S4_phang|cao S3_giam|cao,,S4_phang,S3_giam,,
+2018-03-25,2018-03-25,1,Xuân,2018,False,False,62.17999999999999,S2_tang,S2_tang|cao,,S2_tang,S2_tang,,
+2018-04-07,2018-04-09,3,Xuân,2018,False,False,83.7,S2_tang S3_giam S3_giam,S2_tang|cao S3_giam|cao S3_giam|cao,,S2_tang,S3_giam,,
+2018-04-17,2018-04-19,3,Xuân,2018,True,False,98.44545454545455,S2_tang S4_phang S4_phang S3_giam S3_giam,S2_tang|TB S4_phang|cao S4_phang|cao S3_giam|cao S3_giam|TB,S2_tang,S4_phang,S3_giam,S3_giam,TB
+2018-06-08,2018-06-09,2,Hè,2018,False,False,96.5608695652174,S3_giam S1_U S3_giam,S3_giam|cao S1_U|cao S3_giam|TB,,S3_giam,S1_U,S3_giam,TB
+2018-09-23,2018-09-23,1,Hè,2018,True,False,53.78260869565217,S4_phang S3_giam S4_phang,S4_phang|TB S3_giam|cao S4_phang|TB,S4_phang,S3_giam,S3_giam,S4_phang,TB
+2018-10-01,2018-10-03,3,Thu,2018,False,False,62.73913043478261,S1_U S1_U S1_U S1_U,S1_U|TB S1_U|cao S1_U|cao S1_U|cao,S1_U,S1_U,S1_U,,
+2018-10-06,2018-10-06,1,Thu,2018,False,False,95.13636363636364,S3_giam,S3_giam|cao,,S3_giam,S3_giam,,
+2018-10-08,2018-10-08,1,Thu,2018,False,False,56.26086956521739,S3_giam S4_phang,S3_giam|cao S4_phang|TB,,S3_giam,S3_giam,S4_phang,TB
+2018-10-13,2018-10-13,1,Thu,2018,False,False,81.8,S1_U S3_giam,S1_U|cao S3_giam|TB,,S1_U,S1_U,S3_giam,TB
+2018-11-02,2018-11-04,3,Thu,2018,True,False,94.54166666666667,S1_U S1_U S3_giam S3_giam S3_giam,S1_U|TB S1_U|cao S3_giam|cao S3_giam|cao S3_giam|TB,S1_U,S1_U,S3_giam,S3_giam,TB
+2018-11-10,2018-11-11,2,Thu,2018,True,False,66.91666666666667,S2_tang S4_phang S3_giam S2_tang,S2_tang|TB S4_phang|cao S3_giam|cao S2_tang|TB,S2_tang,S4_phang,S3_giam,S2_tang,TB
+2018-11-23,2018-12-01,9,Thu,2018,True,False,124.125,S2_tang S1_U S1_U S1_U S1_U S1_U S1_U S3_giam S3_giam S3_giam S2_tang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S3_giam|cao S2_tang|thấp,S2_tang,S1_U,S3_giam,S2_tang,thấp
+2018-12-18,2018-12-21,4,Đông,2018,False,False,87.20833333333333,S3_giam S1_U S3_giam S4_phang S4_phang,S3_giam|cao S1_U|cao S3_giam|cao S4_phang|cao S4_phang|TB,,S3_giam,S4_phang,S4_phang,TB
+2019-01-04,2019-01-05,2,Đông,2019,True,False,52.22727272727273,S2_tang S4_phang S4_phang S2_tang,S2_tang|TB S4_phang|cao S4_phang|cao S2_tang|TB,S2_tang,S4_phang,S4_phang,S2_tang,TB
+2019-01-07,2019-01-07,1,Đông,2019,True,False,68.16666666666667,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2019-01-11,2019-01-12,2,Đông,2019,True,False,66.75,S2_tang S2_tang S3_giam S2_tang,S2_tang|TB S2_tang|cao S3_giam|cao S2_tang|TB,S2_tang,S2_tang,S3_giam,S2_tang,TB
+2019-01-18,2019-01-20,3,Đông,2019,False,False,102.25,S1_U S2_tang S1_U S1_U,S1_U|cao S2_tang|cao S1_U|cao S1_U|thấp,,S1_U,S1_U,S1_U,thấp
+2019-01-23,2019-01-27,5,Đông,2019,False,False,129.47826086956522,S1_U S4_phang S4_phang S1_U S3_giam S3_giam,S1_U|cao S4_phang|cao S4_phang|cao S1_U|cao S3_giam|cao S3_giam|TB,,S1_U,S3_giam,S3_giam,TB
+2019-02-02,2019-02-02,1,Đông,2019,True,False,53.916666666666664,S2_tang S4_phang S4_phang,S2_tang|TB S4_phang|cao S4_phang|TB,S2_tang,S4_phang,S4_phang,S4_phang,TB
+2019-02-11,2019-02-12,2,Đông,2019,True,False,53.833333333333336,S2_tang S2_tang S4_phang S4_phang,S2_tang|thấp S2_tang|cao S4_phang|cao S4_phang|TB,S2_tang,S2_tang,S4_phang,S4_phang,TB
+2019-02-26,2019-02-28,3,Đông,2019,True,False,66.75,S2_tang S2_tang S2_tang S3_giam S4_phang,S2_tang|TB S2_tang|cao S2_tang|cao S3_giam|cao S4_phang|TB,S2_tang,S2_tang,S3_giam,S4_phang,TB
+2019-03-11,2019-03-14,4,Xuân,2019,True,False,111.16666666666667,S2_tang S1_U S3_giam S4_phang S4_phang S1_U,S2_tang|TB S1_U|cao S3_giam|cao S4_phang|cao S4_phang|cao S1_U|TB,S2_tang,S1_U,S4_phang,S1_U,TB
+2019-03-19,2019-03-20,2,Xuân,2019,True,False,55.25,S1_U S3_giam S4_phang S4_phang,S1_U|thấp S3_giam|cao S4_phang|cao S4_phang|TB,S1_U,S3_giam,S4_phang,S4_phang,TB
+2019-03-26,2019-03-27,2,Xuân,2019,False,False,97.29166666666667,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|cao,S2_tang,S4_phang,S3_giam,,
+2019-04-02,2019-04-02,1,Xuân,2019,False,False,56.791666666666664,S2_tang S3_giam,S2_tang|TB S3_giam|cao,S2_tang,S3_giam,S3_giam,,
+2019-04-19,2019-04-20,2,Xuân,2019,True,False,61.041666666666664,S4_phang S4_phang S4_phang S4_phang,S4_phang|TB S4_phang|cao S4_phang|cao S4_phang|TB,S4_phang,S4_phang,S4_phang,S4_phang,TB
+2019-09-11,2019-09-11,1,Hè,2019,False,False,50.125,S1_U S1_U,S1_U|cao S1_U|TB,,S1_U,S1_U,S1_U,TB
+2019-09-13,2019-09-17,5,Hè,2019,True,False,83.58333333333333,S1_U S4_phang S1_U S1_U S3_giam S3_giam S3_giam,S1_U|TB S4_phang|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S3_giam|TB,S1_U,S4_phang,S3_giam,S3_giam,TB
+2019-09-20,2019-09-20,1,Hè,2019,True,False,61.166666666666664,S4_phang S1_U S1_U,S4_phang|TB S1_U|cao S1_U|TB,S4_phang,S1_U,S1_U,S1_U,TB
+2019-09-25,2019-09-25,1,Hè,2019,False,False,77.58333333333333,S1_U,S1_U|cao,,S1_U,S1_U,,
+2019-09-27,2019-09-30,4,Hè,2019,False,False,115.375,S1_U S1_U S1_U S1_U,S1_U|cao S1_U|cao S1_U|cao S1_U|cao,,S1_U,S1_U,,
+2019-10-02,2019-10-02,1,Thu,2019,False,False,85.17391304347827,S3_giam,S3_giam|cao,,S3_giam,S3_giam,,
+2019-10-16,2019-10-17,2,Thu,2019,False,False,66.29166666666667,S4_phang S1_U S1_U,S4_phang|cao S1_U|cao S1_U|TB,,S4_phang,S1_U,S1_U,TB
+2019-10-20,2019-10-21,2,Thu,2019,True,False,70.54166666666667,S1_U S1_U S3_giam S1_U,S1_U|TB S1_U|cao S3_giam|cao S1_U|TB,S1_U,S1_U,S3_giam,S1_U,TB
+2019-10-31,2019-10-31,1,Thu,2019,False,False,60.875,S1_U S4_phang,S1_U|cao S4_phang|TB,,S1_U,S1_U,S4_phang,TB
+2019-11-04,2019-11-05,2,Thu,2019,False,False,72.08333333333333,S4_phang S2_tang S1_U,S4_phang|TB S2_tang|cao S1_U|cao,S4_phang,S2_tang,S1_U,,
+2019-11-07,2019-11-07,1,Thu,2019,False,False,109.27272727272727,S1_U,S1_U|cao,,S1_U,S1_U,,
+2019-11-09,2019-11-09,1,Thu,2019,False,False,84.25,S1_U,S1_U|cao,,S1_U,S1_U,,
+2019-11-15,2019-11-16,2,Thu,2019,True,False,63.458333333333336,S2_tang S4_phang S3_giam S4_phang,S2_tang|TB S4_phang|cao S3_giam|cao S4_phang|TB,S2_tang,S4_phang,S3_giam,S4_phang,TB
+2019-11-20,2019-11-20,1,Thu,2019,False,False,58.708333333333336,S2_tang S2_tang,S2_tang|TB S2_tang|cao,S2_tang,S2_tang,S2_tang,,
+2019-11-23,2019-11-27,5,Thu,2019,False,False,91.20833333333333,S3_giam S3_giam S1_U S2_tang S3_giam S2_tang,S3_giam|cao S3_giam|cao S1_U|cao S2_tang|cao S3_giam|cao S2_tang|TB,,S3_giam,S3_giam,S2_tang,TB
+2019-11-29,2019-12-01,3,Thu,2019,True,False,84.41666666666667,S2_tang S4_phang S4_phang S3_giam S2_tang,S2_tang|TB S4_phang|cao S4_phang|cao S3_giam|cao S2_tang|TB,S2_tang,S4_phang,S3_giam,S2_tang,TB
+2019-12-03,2019-12-06,4,Đông,2019,False,False,61.416666666666664,S2_tang S2_tang S1_U S1_U S2_tang,S2_tang|TB S2_tang|cao S1_U|cao S1_U|cao S2_tang|cao,S2_tang,S2_tang,S2_tang,,
+2019-12-08,2019-12-16,9,Đông,2019,False,False,161.58333333333334,S1_U S1_U S1_U S1_U S3_giam S3_giam S4_phang S4_phang S4_phang S4_phang,S1_U|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|TB,,S1_U,S4_phang,S4_phang,TB
+2019-12-19,2019-12-21,3,Đông,2019,False,False,75.08333333333333,S4_phang S4_phang S1_U,S4_phang|cao S4_phang|cao S1_U|cao,,S4_phang,S1_U,,
+2019-12-23,2019-12-24,2,Đông,2019,False,False,144.43478260869566,S1_U S3_giam S1_U,S1_U|cao S3_giam|cao S1_U|TB,,S1_U,S3_giam,S1_U,TB
+2019-12-28,2020-01-02,6,Đông,2019,True,False,115.0,S2_tang S2_tang S4_phang S4_phang S4_phang S1_U S3_giam S4_phang,S2_tang|TB S2_tang|cao S4_phang|cao S4_phang|cao S4_phang|cao S1_U|cao S3_giam|cao S4_phang|TB,S2_tang,S2_tang,S3_giam,S4_phang,TB
+2020-01-07,2020-01-07,1,Đông,2020,True,False,59.375,S4_phang S4_phang S1_U,S4_phang|TB S4_phang|cao S1_U|TB,S4_phang,S4_phang,S4_phang,S1_U,TB
+2020-01-13,2020-01-14,2,Đông,2020,True,False,174.95833333333334,S2_tang S2_tang S3_giam S1_U,S2_tang|TB S2_tang|cao S3_giam|cao S1_U|TB,S2_tang,S2_tang,S3_giam,S1_U,TB
+2020-01-18,2020-01-18,1,Đông,2020,True,False,67.0,S2_tang S2_tang S1_U,S2_tang|TB S2_tang|cao S1_U|TB,S2_tang,S2_tang,S2_tang,S1_U,TB
+2020-01-20,2020-01-22,3,Đông,2020,True,False,109.65217391304348,S1_U S2_tang S4_phang S4_phang S4_phang,S1_U|TB S2_tang|cao S4_phang|cao S4_phang|cao S4_phang|TB,S1_U,S2_tang,S4_phang,S4_phang,TB
+2020-01-29,2020-02-03,6,Đông,2020,True,False,152.875,S2_tang S4_phang S1_U S3_giam S4_phang S4_phang S3_giam S4_phang,S2_tang|TB S4_phang|cao S1_U|cao S3_giam|cao S4_phang|cao S4_phang|cao S3_giam|cao S4_phang|thấp,S2_tang,S4_phang,S3_giam,S4_phang,thấp
+2020-02-06,2020-02-07,2,Đông,2020,False,False,74.70833333333333,S2_tang S3_giam S2_tang,S2_tang|TB S3_giam|cao S2_tang|cao,S2_tang,S3_giam,S2_tang,,
+2020-02-11,2020-02-13,3,Đông,2020,False,False,72.65217391304348,S1_U S4_phang S3_giam S4_phang,S1_U|cao S4_phang|cao S3_giam|cao S4_phang|TB,,S1_U,S3_giam,S4_phang,TB
+2020-02-18,2020-02-24,7,Đông,2020,False,False,176.0,S2_tang S4_phang S4_phang S2_tang S4_phang S4_phang S3_giam S4_phang,S2_tang|TB S4_phang|cao S4_phang|cao S2_tang|cao S4_phang|cao S4_phang|cao S3_giam|cao S4_phang|cao,S2_tang,S4_phang,S4_phang,,
+2020-02-26,2020-02-26,1,Đông,2020,False,False,51.56521739130435,S4_phang S4_phang,S4_phang|cao S4_phang|TB,,S4_phang,S4_phang,S4_phang,TB
+2020-03-06,2020-03-06,1,Xuân,2020,True,False,79.625,S4_phang S3_giam S2_tang,S4_phang|TB S3_giam|cao S2_tang|TB,S4_phang,S3_giam,S3_giam,S2_tang,TB
+2020-03-08,2020-03-17,10,Xuân,2020,True,False,116.25,S2_tang S4_phang S4_phang S1_U S4_phang S4_phang S3_giam S2_tang S2_tang S1_U S3_giam S4_phang,S2_tang|TB S4_phang|cao S4_phang|cao S1_U|cao S4_phang|cao S4_phang|cao S3_giam|cao S2_tang|cao S2_tang|cao S1_U|cao S3_giam|cao S4_phang|TB,S2_tang,S4_phang,S3_giam,S4_phang,TB
+2020-03-20,2020-03-21,2,Xuân,2020,True,False,63.958333333333336,S2_tang S4_phang S3_giam S4_phang,S2_tang|TB S4_phang|cao S3_giam|cao S4_phang|TB,S2_tang,S4_phang,S3_giam,S4_phang,TB
+2020-04-02,2020-04-03,2,Xuân,2020,True,False,57.708333333333336,S2_tang S1_U S3_giam S1_U,S2_tang|TB S1_U|cao S3_giam|cao S1_U|TB,S2_tang,S1_U,S3_giam,S1_U,TB
+2020-04-08,2020-04-10,3,Xuân,2020,False,False,76.625,S1_U S4_phang S3_giam S4_phang,S1_U|cao S4_phang|cao S3_giam|cao S4_phang|TB,,S1_U,S3_giam,S4_phang,TB
+2020-04-15,2020-04-16,2,Xuân,2020,True,False,63.166666666666664,S1_U S1_U S3_giam S4_phang,S1_U|TB S1_U|cao S3_giam|cao S4_phang|TB,S1_U,S1_U,S3_giam,S4_phang,TB
+2020-04-28,2020-04-28,1,Xuân,2020,False,False,78.08333333333333,S1_U S1_U,S1_U|TB S1_U|cao,S1_U,S1_U,S1_U,,
+2020-05-28,2020-05-28,1,Hè,2020,True,False,58.130434782608695,S2_tang S3_giam S4_phang,S2_tang|TB S3_giam|cao S4_phang|TB,S2_tang,S3_giam,S3_giam,S4_phang,TB
+2020-06-05,2020-06-06,2,Hè,2020,False,False,71.625,S2_tang S2_tang S1_U,S2_tang|TB S2_tang|cao S1_U|cao,S2_tang,S2_tang,S1_U,,
+2020-07-27,2020-07-28,2,Hè,2020,True,False,75.45454545454545,S4_phang S4_phang S3_giam S1_U,S4_phang|TB S4_phang|cao S3_giam|cao S1_U|TB,S4_phang,S4_phang,S3_giam,S1_U,TB
+2020-09-04,2020-09-04,1,Hè,2020,False,False,50.458333333333336,S4_phang S1_U,S4_phang|cao S1_U|TB,,S4_phang,S4_phang,S1_U,TB
+2020-10-12,2020-10-12,1,Thu,2020,True,False,51.5,S2_tang S2_tang S1_U,S2_tang|TB S2_tang|cao S1_U|TB,S2_tang,S2_tang,S2_tang,S1_U,TB
+2020-10-22,2020-10-27,6,Thu,2020,True,False,83.08333333333333,S1_U S1_U S1_U S1_U S3_giam S3_giam S1_U S1_U,S1_U|TB S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S1_U|cao S1_U|TB,S1_U,S1_U,S1_U,S1_U,TB
+2020-11-01,2020-11-01,1,Thu,2020,True,False,69.54166666666667,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2020-11-04,2020-11-06,3,Thu,2020,True,False,109.70833333333333,S4_phang S2_tang S4_phang S4_phang S1_U,S4_phang|TB S2_tang|cao S4_phang|cao S4_phang|cao S1_U|TB,S4_phang,S2_tang,S4_phang,S1_U,TB
+2020-11-08,2020-11-14,7,Thu,2020,True,False,80.95833333333333,S1_U S1_U S1_U S1_U S1_U S1_U S1_U S1_U S4_phang,S1_U|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|TB,S1_U,S1_U,S1_U,S4_phang,TB
+2020-11-27,2020-11-27,1,Thu,2020,True,False,55.25,S4_phang S3_giam S4_phang,S4_phang|TB S3_giam|cao S4_phang|TB,S4_phang,S3_giam,S3_giam,S4_phang,TB
+2020-12-01,2020-12-03,3,Đông,2020,True,False,82.70833333333333,S1_U S2_tang S1_U S3_giam S2_tang,S1_U|TB S2_tang|cao S1_U|cao S3_giam|cao S2_tang|TB,S1_U,S2_tang,S3_giam,S2_tang,TB
+2020-12-07,2020-12-10,4,Đông,2020,False,False,110.04166666666667,S1_U S1_U S3_giam S1_U,S1_U|cao S1_U|cao S3_giam|cao S1_U|cao,,S1_U,S1_U,,
+2020-12-21,2020-12-27,7,Đông,2020,True,False,101.04166666666667,S2_tang S1_U S1_U S1_U S2_tang S3_giam S4_phang S4_phang S4_phang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S2_tang|cao S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|TB,S2_tang,S1_U,S4_phang,S4_phang,TB
+2020-12-31,2021-01-06,7,Đông,2020,False,False,170.29166666666666,S2_tang S2_tang S1_U S1_U S3_giam S1_U S3_giam S2_tang,S2_tang|TB S2_tang|cao S1_U|cao S1_U|cao S3_giam|cao S1_U|cao S3_giam|cao S2_tang|cao,S2_tang,S2_tang,S2_tang,,
+2021-01-10,2021-01-18,9,Đông,2021,False,False,171.95833333333334,S1_U S2_tang S1_U S1_U S3_giam S3_giam S4_phang S4_phang S1_U S2_tang,S1_U|TB S2_tang|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S4_phang|cao S4_phang|cao S1_U|cao S2_tang|cao,S1_U,S2_tang,S2_tang,,
+2021-06-03,2021-06-03,1,Hè,2021,True,False,59.458333333333336,S2_tang S2_tang S2_tang,S2_tang|TB S2_tang|cao S2_tang|TB,S2_tang,S2_tang,S2_tang,S2_tang,TB
+2021-06-05,2021-06-06,2,Hè,2021,True,False,97.29166666666667,S2_tang S2_tang S3_giam S3_giam,S2_tang|TB S2_tang|cao S3_giam|cao S3_giam|TB,S2_tang,S2_tang,S3_giam,S3_giam,TB
+2021-09-12,2021-09-13,2,Hè,2021,True,False,60.0,S1_U S4_phang S3_giam S1_U,S1_U|TB S4_phang|cao S3_giam|cao S1_U|TB,S1_U,S4_phang,S3_giam,S1_U,TB
+2021-10-07,2021-10-07,1,Thu,2021,True,False,64.875,S2_tang S1_U S1_U,S2_tang|TB S1_U|cao S1_U|TB,S2_tang,S1_U,S1_U,S1_U,TB
+2021-10-25,2021-10-25,1,Thu,2021,False,True,67.54166666666667,S1_U S1_U,S1_U|TB S1_U|cao,S1_U,S1_U,S1_U,,
+2021-11-11,2021-11-12,2,Thu,2021,True,False,58.791666666666664,S1_U S1_U S3_giam S2_tang,S1_U|TB S1_U|cao S3_giam|cao S2_tang|TB,S1_U,S1_U,S3_giam,S2_tang,TB
+2021-11-14,2021-11-17,4,Thu,2021,False,False,94.70833333333333,S2_tang S1_U S3_giam S4_phang S3_giam,S2_tang|TB S1_U|cao S3_giam|cao S4_phang|cao S3_giam|cao,S2_tang,S1_U,S3_giam,,
+2021-11-26,2021-11-30,5,Thu,2021,True,False,89.38095238095238,S2_tang S1_U S1_U S1_U S1_U S1_U S1_U,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|TB,S2_tang,S1_U,S1_U,S1_U,TB
+2021-12-02,2021-12-12,11,Đông,2021,True,False,113.125,S1_U S1_U S1_U S1_U S1_U S1_U S3_giam S1_U S2_tang S3_giam S1_U S3_giam S2_tang,S1_U|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S1_U|cao S2_tang|cao S3_giam|cao S1_U|cao S3_giam|cao S2_tang|TB,S1_U,S1_U,S3_giam,S2_tang,TB
+2021-12-14,2021-12-17,4,Đông,2021,True,False,134.20833333333334,S2_tang S4_phang S4_phang S2_tang S3_giam S2_tang,S2_tang|TB S4_phang|cao S4_phang|cao S2_tang|cao S3_giam|cao S2_tang|TB,S2_tang,S4_phang,S3_giam,S2_tang,TB
+2021-12-19,2021-12-26,8,Đông,2021,True,False,111.08333333333333,S2_tang S1_U S3_giam S2_tang S3_giam S4_phang S2_tang S3_giam S3_giam S2_tang,S2_tang|TB S1_U|cao S3_giam|cao S2_tang|cao S3_giam|cao S4_phang|cao S2_tang|cao S3_giam|cao S3_giam|cao S2_tang|thấp,S2_tang,S1_U,S3_giam,S2_tang,thấp
+2022-01-01,2022-01-04,4,Đông,2022,True,False,122.875,S2_tang S4_phang S2_tang S1_U S3_giam S1_U,S2_tang|TB S4_phang|cao S2_tang|cao S1_U|cao S3_giam|cao S1_U|TB,S2_tang,S4_phang,S3_giam,S1_U,TB
+2022-01-08,2022-01-08,1,Đông,2022,False,False,52.458333333333336,S1_U S1_U,S1_U|cao S1_U|TB,,S1_U,S1_U,S1_U,TB
+2022-01-15,2022-01-16,2,Đông,2022,False,False,106.5,S1_U S3_giam S2_tang,S1_U|cao S3_giam|cao S2_tang|thấp,,S1_U,S3_giam,S2_tang,thấp
+2022-01-19,2022-01-23,5,Đông,2022,True,False,72.5,S2_tang S4_phang S2_tang S3_giam S3_giam S4_phang S3_giam,S2_tang|TB S4_phang|cao S2_tang|cao S3_giam|cao S3_giam|cao S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2022-02-26,2022-02-26,1,Đông,2022,False,False,88.95833333333333,S2_tang,S2_tang|cao,,S2_tang,S2_tang,,
+2022-03-15,2022-03-15,1,Xuân,2022,False,False,59.208333333333336,S4_phang S4_phang,S4_phang|cao S4_phang|TB,,S4_phang,S4_phang,S4_phang,TB
+2022-09-26,2022-09-28,3,Hè,2022,True,False,71.33333333333333,S1_U S2_tang S1_U S3_giam S1_U,S1_U|TB S2_tang|cao S1_U|cao S3_giam|cao S1_U|TB,S1_U,S2_tang,S3_giam,S1_U,TB
+2022-10-29,2022-10-30,2,Thu,2022,False,False,80.58333333333333,S1_U S1_U S1_U,S1_U|cao S1_U|cao S1_U|TB,,S1_U,S1_U,S1_U,TB
+2022-11-02,2022-11-10,9,Thu,2022,True,False,96.79166666666667,S1_U S1_U S1_U S1_U S1_U S4_phang S1_U S4_phang S3_giam S2_tang S3_giam,S1_U|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S1_U|cao S4_phang|cao S3_giam|cao S2_tang|cao S3_giam|TB,S1_U,S1_U,S2_tang,S3_giam,TB
+2022-11-13,2022-11-13,1,Thu,2022,True,False,51.17391304347826,S3_giam S4_phang S4_phang,S3_giam|TB S4_phang|cao S4_phang|TB,S3_giam,S4_phang,S4_phang,S4_phang,TB
+2022-11-21,2022-11-23,3,Thu,2022,True,False,77.54166666666667,S2_tang S1_U S1_U S1_U S3_giam,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S3_giam|TB,S2_tang,S1_U,S1_U,S3_giam,TB
+2022-12-06,2022-12-07,2,Đông,2022,True,False,73.08333333333333,S2_tang S2_tang S1_U S4_phang,S2_tang|thấp S2_tang|cao S1_U|cao S4_phang|TB,S2_tang,S2_tang,S1_U,S4_phang,TB
+2022-12-09,2022-12-09,1,Đông,2022,True,False,53.833333333333336,S4_phang S4_phang S2_tang,S4_phang|TB S4_phang|cao S2_tang|TB,S4_phang,S4_phang,S4_phang,S2_tang,TB
+2022-12-11,2022-12-27,17,Đông,2022,True,False,144.41666666666666,S2_tang S1_U S1_U S1_U S1_U S1_U S1_U S1_U S2_tang S1_U S1_U S2_tang S3_giam S3_giam S4_phang S3_giam S2_tang S1_U S3_giam,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S2_tang|cao S1_U|cao S1_U|cao S2_tang|cao S3_giam|cao S3_giam|cao S4_phang|cao S3_giam|cao S2_tang|cao S1_U|cao S3_giam|TB,S2_tang,S1_U,S1_U,S3_giam,TB
+2022-12-31,2023-01-05,6,Đông,2022,False,False,96.70833333333333,S4_phang S1_U S3_giam S1_U S1_U S1_U S1_U,S4_phang|cao S1_U|cao S3_giam|cao S1_U|cao S1_U|cao S1_U|cao S1_U|TB,,S4_phang,S1_U,S1_U,TB
+2023-01-07,2023-01-11,5,Đông,2023,False,False,115.95454545454545,S1_U S2_tang S3_giam S2_tang S3_giam S4_phang,S1_U|TB S2_tang|cao S3_giam|cao S2_tang|cao S3_giam|cao S4_phang|cao,S1_U,S2_tang,S4_phang,,
+2023-01-17,2023-01-21,5,Đông,2023,False,False,127.16666666666667,S2_tang S2_tang S3_giam S1_U S1_U,S2_tang|cao S2_tang|cao S3_giam|cao S1_U|cao S1_U|cao,,S2_tang,S1_U,,
+2023-01-25,2023-02-01,8,Đông,2023,False,False,111.0,S2_tang S4_phang S4_phang S4_phang S2_tang S1_U S3_giam S3_giam S4_phang,S2_tang|TB S4_phang|cao S4_phang|cao S4_phang|cao S2_tang|cao S1_U|cao S3_giam|cao S3_giam|cao S4_phang|cao,S2_tang,S4_phang,S4_phang,,
+2023-04-09,2023-04-10,2,Xuân,2023,False,False,70.21739130434783,S4_phang S2_tang,S4_phang|cao S2_tang|cao,,S4_phang,S2_tang,,
+2023-04-16,2023-04-17,2,Xuân,2023,False,False,53.541666666666664,S4_phang S4_phang S2_tang,S4_phang|cao S4_phang|cao S2_tang|TB,,S4_phang,S4_phang,S2_tang,TB
+2023-04-19,2023-04-21,3,Xuân,2023,False,False,68.45833333333333,S2_tang S4_phang S4_phang S4_phang,S2_tang|TB S4_phang|cao S4_phang|cao S4_phang|cao,S2_tang,S4_phang,S4_phang,,
+2023-05-18,2023-05-19,2,Hè,2023,False,False,56.333333333333336,S1_U S1_U S4_phang,S1_U|TB S1_U|cao S4_phang|cao,S1_U,S1_U,S4_phang,,
+2023-06-11,2023-06-11,1,Hè,2023,True,False,51.5,S1_U S4_phang S4_phang,S1_U|TB S4_phang|cao S4_phang|TB,S1_U,S4_phang,S4_phang,S4_phang,TB
+2023-07-17,2023-07-17,1,Hè,2023,True,False,52.291666666666664,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2023-08-11,2023-08-11,1,Hè,2023,True,False,55.416666666666664,S4_phang S3_giam S4_phang,S4_phang|TB S3_giam|cao S4_phang|TB,S4_phang,S3_giam,S3_giam,S4_phang,TB
+2023-08-19,2023-08-19,1,Hè,2023,True,False,50.95652173913044,S3_giam S2_tang S1_U,S3_giam|TB S2_tang|cao S1_U|TB,S3_giam,S2_tang,S2_tang,S1_U,TB
+2023-09-01,2023-09-01,1,Hè,2023,True,False,52.333333333333336,S3_giam S3_giam S3_giam,S3_giam|TB S3_giam|cao S3_giam|TB,S3_giam,S3_giam,S3_giam,S3_giam,TB
+2023-09-06,2023-09-06,1,Hè,2023,True,False,50.869565217391305,S4_phang S4_phang S4_phang,S4_phang|thấp S4_phang|cao S4_phang|TB,S4_phang,S4_phang,S4_phang,S4_phang,TB
+2023-09-10,2023-09-11,2,Hè,2023,True,False,52.541666666666664,S4_phang S3_giam S4_phang S2_tang,S4_phang|TB S3_giam|cao S4_phang|cao S2_tang|TB,S4_phang,S3_giam,S4_phang,S2_tang,TB
+2023-09-30,2023-09-30,1,Hè,2023,True,False,52.916666666666664,S4_phang S4_phang S3_giam,S4_phang|TB S4_phang|cao S3_giam|TB,S4_phang,S4_phang,S4_phang,S3_giam,TB
+2023-10-04,2023-10-04,1,Thu,2023,True,False,50.583333333333336,S4_phang S4_phang S3_giam,S4_phang|TB S4_phang|cao S3_giam|TB,S4_phang,S4_phang,S4_phang,S3_giam,TB
+2023-10-16,2023-10-19,4,Thu,2023,True,False,87.83333333333333,S2_tang S1_U S1_U S1_U S3_giam S4_phang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S4_phang|TB,S2_tang,S1_U,S3_giam,S4_phang,TB
+2023-10-23,2023-10-25,3,Thu,2023,True,False,74.54166666666667,S2_tang S1_U S2_tang S3_giam S2_tang,S2_tang|TB S1_U|cao S2_tang|cao S3_giam|cao S2_tang|TB,S2_tang,S1_U,S3_giam,S2_tang,TB
+2023-10-27,2023-10-27,1,Thu,2023,True,False,90.47826086956522,S2_tang S4_phang S4_phang,S2_tang|TB S4_phang|cao S4_phang|TB,S2_tang,S4_phang,S4_phang,S4_phang,TB
+2023-10-31,2023-11-02,3,Thu,2023,True,False,75.70833333333333,S4_phang S3_giam S4_phang S4_phang S3_giam,S4_phang|thấp S3_giam|cao S4_phang|cao S4_phang|cao S3_giam|TB,S4_phang,S3_giam,S4_phang,S3_giam,TB
+2023-12-09,2023-12-09,1,Đông,2023,False,False,65.3913043478261,S4_phang S4_phang,S4_phang|cao S4_phang|TB,,S4_phang,S4_phang,S4_phang,TB
+2023-12-18,2023-12-18,1,Đông,2023,True,False,52.291666666666664,S2_tang S4_phang S2_tang,S2_tang|TB S4_phang|cao S2_tang|thấp,S2_tang,S4_phang,S4_phang,S2_tang,thấp
+2023-12-22,2023-12-26,5,Đông,2023,False,False,118.04166666666667,S2_tang S2_tang S1_U S2_tang S1_U S4_phang,S2_tang|TB S2_tang|cao S1_U|cao S2_tang|cao S1_U|cao S4_phang|cao,S2_tang,S2_tang,S4_phang,,
+2024-01-04,2024-01-05,2,Đông,2024,True,False,71.16666666666667,S2_tang S4_phang S4_phang S4_phang,S2_tang|TB S4_phang|cao S4_phang|cao S4_phang|TB,S2_tang,S4_phang,S4_phang,S4_phang,TB
+2024-01-14,2024-01-14,1,Đông,2024,True,False,55.130434782608695,S2_tang S2_tang S3_giam,S2_tang|TB S2_tang|cao S3_giam|TB,S2_tang,S2_tang,S2_tang,S3_giam,TB
+2024-01-26,2024-01-26,1,Đông,2024,True,False,56.458333333333336,S4_phang S4_phang S3_giam,S4_phang|TB S4_phang|cao S3_giam|TB,S4_phang,S4_phang,S4_phang,S3_giam,TB
+2024-01-29,2024-01-31,3,Đông,2024,False,False,100.0,S4_phang S4_phang S2_tang S2_tang,S4_phang|TB S4_phang|cao S2_tang|cao S2_tang|cao,S4_phang,S4_phang,S2_tang,,
+2024-02-02,2024-02-02,1,Đông,2024,False,False,69.56521739130434,S3_giam S4_phang,S3_giam|cao S4_phang|TB,,S3_giam,S3_giam,S4_phang,TB
+2024-02-10,2024-02-12,3,Đông,2024,True,False,70.16666666666667,S2_tang S3_giam S1_U S3_giam S4_phang,S2_tang|TB S3_giam|cao S1_U|cao S3_giam|cao S4_phang|TB,S2_tang,S3_giam,S3_giam,S4_phang,TB
+2024-02-16,2024-02-16,1,Đông,2024,True,False,52.333333333333336,S2_tang S3_giam S4_phang,S2_tang|TB S3_giam|cao S4_phang|TB,S2_tang,S3_giam,S3_giam,S4_phang,TB
+2024-03-03,2024-03-09,7,Xuân,2024,True,False,132.125,S2_tang S3_giam S2_tang S1_U S3_giam S4_phang S2_tang S3_giam S2_tang,S2_tang|TB S3_giam|cao S2_tang|cao S1_U|cao S3_giam|cao S4_phang|cao S2_tang|cao S3_giam|cao S2_tang|TB,S2_tang,S3_giam,S3_giam,S2_tang,TB
+2024-03-12,2024-03-12,1,Xuân,2024,True,False,73.75,S2_tang S3_giam S4_phang,S2_tang|TB S3_giam|cao S4_phang|TB,S2_tang,S3_giam,S3_giam,S4_phang,TB
+2024-03-22,2024-03-22,1,Xuân,2024,False,False,61.333333333333336,S4_phang S4_phang,S4_phang|cao S4_phang|TB,,S4_phang,S4_phang,S4_phang,TB
+2024-03-29,2024-04-03,6,Xuân,2024,True,False,63.25,S4_phang S3_giam S4_phang S4_phang S4_phang S4_phang S4_phang S4_phang,S4_phang|TB S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|TB,S4_phang,S3_giam,S4_phang,S4_phang,TB
+2024-04-21,2024-04-21,1,Xuân,2024,True,False,51.91304347826087,S4_phang S3_giam S4_phang,S4_phang|TB S3_giam|cao S4_phang|TB,S4_phang,S3_giam,S3_giam,S4_phang,TB
+2024-04-24,2024-04-28,5,Xuân,2024,True,False,69.08333333333333,S4_phang S4_phang S3_giam S4_phang S1_U S3_giam S4_phang,S4_phang|TB S4_phang|cao S3_giam|cao S4_phang|cao S1_U|cao S3_giam|cao S4_phang|TB,S4_phang,S4_phang,S3_giam,S4_phang,TB
+2024-04-30,2024-04-30,1,Xuân,2024,True,False,65.0,S4_phang S4_phang S1_U,S4_phang|TB S4_phang|cao S1_U|TB,S4_phang,S4_phang,S4_phang,S1_U,TB
+2024-05-07,2024-05-07,1,Hè,2024,True,False,50.26086956521739,S3_giam S4_phang S1_U,S3_giam|TB S4_phang|cao S1_U|TB,S3_giam,S4_phang,S4_phang,S1_U,TB
+2024-06-01,2024-06-01,1,Hè,2024,True,False,51.708333333333336,S2_tang S1_U S2_tang,S2_tang|TB S1_U|cao S2_tang|TB,S2_tang,S1_U,S1_U,S2_tang,TB
+2024-06-15,2024-06-15,1,Hè,2024,True,False,112.91666666666667,S2_tang S1_U S3_giam,S2_tang|TB S1_U|cao S3_giam|TB,S2_tang,S1_U,S1_U,S3_giam,TB
+2024-09-15,2024-09-15,1,Hè,2024,True,False,68.69565217391305,S2_tang S4_phang S1_U,S2_tang|TB S4_phang|cao S1_U|thấp,S2_tang,S4_phang,S4_phang,S1_U,thấp
+2024-09-24,2024-09-26,3,Hè,2024,False,False,59.458333333333336,S4_phang S1_U S1_U S4_phang,S4_phang|TB S1_U|cao S1_U|cao S4_phang|cao,S4_phang,S1_U,S4_phang,,
+2024-10-04,2024-10-13,10,Thu,2024,True,False,98.95833333333333,S2_tang S1_U S1_U S1_U S1_U S1_U S1_U S1_U S4_phang S3_giam S3_giam S4_phang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao S3_giam|cao S4_phang|TB,S2_tang,S1_U,S3_giam,S4_phang,TB
+2024-10-24,2024-10-26,3,Thu,2024,False,False,70.45833333333333,S1_U S1_U S1_U S4_phang,S1_U|cao S1_U|cao S1_U|cao S4_phang|TB,,S1_U,S1_U,S4_phang,TB
+2024-10-30,2024-11-15,17,Thu,2024,True,False,102.5,S2_tang S1_U S1_U S1_U S1_U S1_U S3_giam S1_U S1_U S1_U S1_U S4_phang S1_U S1_U S1_U S3_giam S3_giam S4_phang S4_phang,S2_tang|TB S1_U|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S1_U|cao S1_U|cao S1_U|cao S1_U|cao S4_phang|cao S1_U|cao S1_U|cao S1_U|cao S3_giam|cao S3_giam|cao S4_phang|cao S4_phang|TB,S2_tang,S1_U,S4_phang,S4_phang,TB
+2024-11-17,2024-11-18,2,Thu,2024,True,False,67.41666666666667,S4_phang S1_U S3_giam S3_giam,S4_phang|TB S1_U|cao S3_giam|cao S3_giam|TB,S4_phang,S1_U,S3_giam,S3_giam,TB
+2024-11-22,2024-11-25,4,Thu,2024,True,False,83.66666666666667,S2_tang S1_U S1_U S4_phang S3_giam S1_U,S2_tang|TB S1_U|cao S1_U|cao S4_phang|cao S3_giam|cao S1_U|TB,S2_tang,S1_U,S3_giam,S1_U,TB
+2024-11-30,2024-12-02,3,Thu,2024,True,False,82.16666666666667,S1_U S3_giam S3_giam S3_giam S1_U,S1_U|TB S3_giam|cao S3_giam|cao S3_giam|cao S1_U|TB,S1_U,S3_giam,S3_giam,S1_U,TB
+2024-12-04,2024-12-04,1,Đông,2024,True,False,51.09090909090909,S1_U S1_U S3_giam,S1_U|TB S1_U|cao S3_giam|TB,S1_U,S1_U,S1_U,S3_giam,TB
+2024-12-07,2024-12-07,1,Đông,2024,False,False,52.95652173913044,S3_giam S2_tang,S3_giam|cao S2_tang|TB,,S3_giam,S3_giam,S2_tang,TB
+2024-12-09,2024-12-10,2,Đông,2024,False,False,117.33333333333333,S2_tang S2_tang S4_phang,S2_tang|TB S2_tang|cao S4_phang|cao,S2_tang,S2_tang,S4_phang,,
+2025-01-04,2025-01-09,6,Đông,2025,False,False,112.45833333333333,S3_giam S4_phang S4_phang S3_giam S3_giam S4_phang S2_tang,S3_giam|cao S4_phang|cao S4_phang|cao S3_giam|cao S3_giam|cao S4_phang|cao S2_tang|TB,,S3_giam,S4_phang,S2_tang,TB
+2025-01-12,2025-01-24,13,Đông,2025,True,False,155.71428571428572,S1_U S1_U S3_giam S4_phang S1_U S1_U S4_phang S2_tang S1_U S1_U S3_giam S4_phang S4_phang S4_phang S4_phang,S1_U|TB S1_U|cao S3_giam|cao S4_phang|cao S1_U|cao S1_U|cao S4_phang|cao S2_tang|cao S1_U|cao S1_U|cao S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|TB,S1_U,S1_U,S4_phang,S4_phang,TB
+2025-01-29,2025-01-30,2,Đông,2025,True,False,92.1304347826087,S2_tang S1_U S3_giam S4_phang,S2_tang|TB S1_U|cao S3_giam|cao S4_phang|TB,S2_tang,S1_U,S3_giam,S4_phang,TB
+2025-02-05,2025-02-06,2,Đông,2025,True,False,64.33333333333333,S2_tang S2_tang S3_giam S2_tang,S2_tang|TB S2_tang|cao S3_giam|cao S2_tang|thấp,S2_tang,S2_tang,S3_giam,S2_tang,thấp
+2025-02-10,2025-02-14,5,Đông,2025,True,False,109.20833333333333,S2_tang S2_tang S3_giam S4_phang S3_giam S4_phang S4_phang,S2_tang|TB S2_tang|cao S3_giam|cao S4_phang|cao S3_giam|cao S4_phang|cao S4_phang|TB,S2_tang,S2_tang,S4_phang,S4_phang,TB
+2025-02-20,2025-02-22,3,Đông,2025,True,False,79.4090909090909,S1_U S4_phang S4_phang S4_phang S1_U,S1_U|TB S4_phang|cao S4_phang|cao S4_phang|cao S1_U|thấp,S1_U,S4_phang,S4_phang,S1_U,thấp
+2025-02-27,2025-02-27,1,Đông,2025,True,False,84.04166666666667,S2_tang S4_phang S3_giam,S2_tang|TB S4_phang|cao S3_giam|TB,S2_tang,S4_phang,S4_phang,S3_giam,TB
+2025-03-09,2025-03-10,2,Xuân,2025,True,False,82.20833333333333,S1_U S2_tang S4_phang S4_phang,S1_U|TB S2_tang|cao S4_phang|cao S4_phang|TB,S1_U,S2_tang,S4_phang,S4_phang,TB
+2025-03-21,2025-03-25,5,Xuân,2025,True,False,89.66666666666667,S2_tang S3_giam S3_giam S4_phang S4_phang S4_phang S4_phang,S2_tang|TB S3_giam|cao S3_giam|cao S4_phang|cao S4_phang|cao S4_phang|cao S4_phang|TB,S2_tang,S3_giam,S4_phang,S4_phang,TB
+2025-04-02,2025-04-02,1,Xuân,2025,True,False,69.3913043478261,S2_tang S4_phang S4_phang,S2_tang|TB S4_phang|cao S4_phang|TB,S2_tang,S4_phang,S4_phang,S4_phang,TB
+2025-04-06,2025-04-06,1,Xuân,2025,True,False,52.083333333333336,S2_tang S3_giam S4_phang,S2_tang|TB S3_giam|cao S4_phang|TB,S2_tang,S3_giam,S3_giam,S4_phang,TB

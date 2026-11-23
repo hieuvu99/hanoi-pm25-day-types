@@ -22,3 +22,7 @@ kaggle.json
 Thumbs.db
 .vscode/
 .idea/
+
+# run_pipeline.py
+.numba_cache/
+phase1/data/raw/.extracted_*

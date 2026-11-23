@@ -21,17 +21,25 @@ Ghi nguồn chi tiết: [DATA_ATTRIBUTION.md](DATA_ATTRIBUTION.md). Dữ liệu 
 3. Clustering hình dạng ngày, k-means k = 4, cùng 3 bậc mức, **mining** (phase2/04).
 4. Association rules FP-Growth trong từng mùa, **mining** (phase2/05).
 5. Anomaly detection theo phần dư mô hình thời tiết, **mining** (phase2/06).
+6. Chuỗi kiểu ngày (sequential pattern mining): ma trận chuyển, so sánh Markov bậc 0/1/2, PrefixSpan trên các đợt ô nhiễm, **analysis + mining** (phase2/07).
 
 ## Kết quả chính
 - Bốn hình dạng ngày: **U** cao đêm thấp chiều (24%), **tăng dần về tối** (18%, đầu đợt ô nhiễm), **giảm dần trong ngày** (19%, cuối đợt), **phẳng** (39%).
 - Mức cao đi kèm gió yếu, lớp biên thấp, khô, biên độ nhiệt lớn; mức thấp đi kèm mưa và gió mạnh (so trong cùng mùa).
+- Đợt ô nhiễm thường **mở bằng ngày `Tăng`** (ngày trước đợt, 47%) và **khép bằng ngày `Giảm`** (ngày cao cuối, 47%), lift ~2,5, vững qua các năm. Không thấy "trí nhớ" quá 1 ngày (Markov bậc 2 không tốt hơn bậc 1).
 - Tết thấp hơn kỳ vọng ~12%, giãn cách ~5%, cuối tuần không lệch (đối chứng âm).
 
 ## Giới hạn
 Một trạm; thời tiết là tái phân tích ~25 km; điểm cháy chỉ trong Việt Nam và bị mây che; số ngày mỗi năm không đều; các ngưỡng là lựa chọn của dự án.
 
 ## Chạy lại
-Xem mục *Reproduce* trong [README.md](README.md).
+```bash
+pip install -r requirements.txt
+python run_pipeline.py            # chạy notebook 01 → 07 (offline, dùng cache dữ liệu gốc)
+python run_pipeline.py --only 07  # chỉ chạy một notebook
+python run_pipeline.py --regen    # sinh lại notebook từ các script _make_notebook_*.py rồi chạy
+```
+Hướng dẫn dùng lại pipeline cho project khác: mục *Reusing the pipeline in another project* trong [README.md](README.md). Brief và nhật ký quyết định: [docs/project_brief_vi.md](docs/project_brief_vi.md).
 
 ## Giấy phép
 Code: MIT ([LICENSE](LICENSE)). Dữ liệu: CC BY 4.0 kèm ghi nguồn.

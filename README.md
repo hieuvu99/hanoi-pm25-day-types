@@ -33,6 +33,7 @@ Clean data: 80,592 hours; 2,322 "complete" days (≥ 18/24 valid hours); 2,230 d
 | Clustering of daily **shape** (`log PM2.5 − daily mean log`, k-means k=4; checked with silhouette, BIC, bootstrap ARI, Ward, GMM, DTW) × 3 **level** tiers (≤25, 25–50, >50 µg/m³) | `phase2/04_clustering.ipynb` | **mining** |
 | Association rules (FP-Growth, within season; lift ≥ 1.3, productive rules, Fisher + Benjamini–Hochberg; robustness by year and 2016–20 → 2021–25 holdout; compared with a decision tree) | `phase2/05_association_rules.ipynb` | **mining** |
 | Anomaly detection: sensor-fault flags; contextual anomalies = residual from a weather-only HistGradientBoosting model (GroupKFold by year, R² 0.64), robust z ≥ 2.5; episodes; Isolation Forest; check against news | `phase2/06_anomaly.ipynb` | **mining** (with ML as a tool) |
+| Sequential patterns of day types: transition matrices by season; Markov order 0/1/2 compared by leave-one-year-out log-loss; contiguous 2–4-day patterns vs independent and Markov-1 baselines (1,000 simulations, WINEPI-style); PrefixSpan on 139 high-PM episodes vs same-season control windows; robustness by year and 2021–25 holdout | `phase2/07_sequences.ipynb` | **analysis** + **mining** (ML-style evaluation) |
 
 ## Main findings (associations)
 
@@ -44,6 +45,8 @@ Clean data: 80,592 hours; 2,322 "complete" days (≥ 18/24 valid hours); 2,230 d
   - **Flat with a daytime bump** (39%): near-normal conditions; dominant Feb–May and during Tết.
 - **Level** (within the same season) goes with dispersion: **high** days with weak wind, low boundary layer, no rain, large temperature range (plus north-easterly wind in winter); **low** days with rain (especially morning rain) and strong wind. Example: in winter, *large temperature range + weak wind → high level* holds on 95% of matching days vs a 54% base rate.
 - 301 within-season rules pass the filters; 257 are robust across years and in the 2016–20 → 2021–25 holdout. Shape is much harder to predict than level (decision tree balanced accuracy 0.41 vs 0.79).
+- **Sequences (notebook 07):** level is persistent (high → high on 78% of winter/autumn days), shape much less so. Knowing today's type cuts next-day log-loss by 19% for level but only 2.6% for shape; adding yesterday (order 2) does *not* help out of sample, and no 3–4-day pattern beats a first-order Markov baseline, i.e. no evidence of memory beyond one day with this much data.
+  - **Episodes open with "rising" and close with "falling":** the day before a run of high days is *Rising toward evening* in 47% of episodes, and the last high day is *Falling through the day* in 47% (both lift ≈ 2.5 vs the same season; stable in 9–10 of 10 years, all four seasons and the 2021–25 holdout). The middle of an episode has no fixed shape. Because shapes are computed per calendar day (00–23 h), this mostly says episodes at this site tend to **start in the evening/night and clear during the day**.
 - **Anomalies:** 17 days flagged as likely sensor faults (fixed upstream). The weather-only model recovers known effects it was never told about: Tết days ≈ 12% below expectation, lockdowns ≈ 5% below, weekends ≈ 0 (negative control). 22 days are much dirtier than the weather explains; October has the highest share. 2020-07-28 matches a same-day news report.
 
 ## Limitations
@@ -62,25 +65,52 @@ Clean data: 80,592 hours; 2,322 "complete" days (≥ 18/24 valid hours); 2,230 d
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Re-run from the raw cache (no download needed)
+python run_pipeline.py            # extract the raw cache and run notebooks 01 -> 07 (offline, ~in place)
+python run_pipeline.py --list     # show the steps
+python run_pipeline.py --from 04  # resume from a step (needs outputs of earlier steps)
+python run_pipeline.py --only 07  # run one notebook
+python run_pipeline.py --regen    # rebuild notebooks from the _make_notebook_*.py scripts, then run
+python run_pipeline.py --online   # re-download FIRMS instead of reusing firms_daily.csv
+```
+
+`run_pipeline.py` works the same on Windows, macOS and Linux. It runs each notebook from its own folder and saves the outputs in place. Manual equivalent:
+
+```bash
 cd phase1
 mkdir -p data/raw && tar xzf data/raw_openaq_2539_7441.tar.gz -C data/raw && tar xzf data/raw_openmeteo.tar.gz -C data/raw
 FIRMS_OFFLINE=1 jupyter nbconvert --to notebook --execute --inplace 01_thu_thap_lam_sach.ipynb 02_bien_bo_sung.ipynb
 cd ../phase2
-jupyter nbconvert --to notebook --execute --inplace 03_eda.ipynb 04_clustering.ipynb 05_association_rules.ipynb 06_anomaly.ipynb
+jupyter nbconvert --to notebook --execute --inplace 03_eda.ipynb 04_clustering.ipynb 05_association_rules.ipynb 06_anomaly.ipynb 07_sequences.ipynb
 ```
 
-- Run phase-1 notebooks from `phase1/` and phase-2 notebooks from `phase2/` (phase 2 reads `../phase1/data/clean/`; override with the env var `HANOI_AQ_DIR`).
-- `FIRMS_OFFLINE=1` reuses `phase1/data/clean/firms_daily.csv`; without it notebook 02 downloads FIRMS country files (no key needed).
-- If numba complains about its cache on a network drive, set `NUMBA_CACHE_DIR` to a local folder. `tslearn` is optional (DTW comparison is skipped without it).
+- Tested 2026-11-23 on Python 3.13 with scikit-learn 1.9.1: `run_pipeline.py --regen` runs 01 → 07 in about 2 minutes offline. Notebooks 01–05 and 07 reproduce the published tables; notebook 06 (HistGradientBoosting, Isolation Forest) shifts slightly with the scikit-learn version (e.g. 21 vs 22 "dirtier than expected" days), so pin versions if you need identical numbers.
+- Phase 2 reads `../phase1/data/clean/`; override with the env var `HANOI_AQ_DIR`.
+- `FIRMS_OFFLINE=1` (default in `run_pipeline.py`) reuses `phase1/data/clean/firms_daily.csv`; without it notebook 02 downloads FIRMS country files (no key needed).
+- If numba complains about its cache on a network drive, set `NUMBA_CACHE_DIR` to a local folder (`run_pipeline.py` does this). `tslearn` is optional (DTW comparison is skipped without it).
 - Network hosts used when not running offline: `openaq-data-archive.s3.amazonaws.com`, `archive-api.open-meteo.com`, `firms.modaps.eosdis.nasa.gov`. Open-Meteo has a daily request limit per IP.
+
+## Reusing the pipeline in another project
+
+Every notebook is generated by a plain Python script next to it (`phase1/_make_notebook.py`, `_make_notebook_02.py`, `phase2/_make_notebook_03.py` … `_make_notebook_07.py`). The scripts are the source of truth: edit a script, then `python run_pipeline.py --regen --only 0X` (or `python _make_notebook_0X.py 0X_name.ipynb` inside the folder) to rebuild the notebook.
+
+To point the pipeline at another city or monitor:
+
+1. **Phase 1**: in `_make_notebook.py` change `OPENAQ_LOCATIONS`, `LAT, LON` (used for Open-Meteo), `TZ` and the date range; in `_make_notebook_02.py` change the FIRMS country URL (`FIRMS`), the fire regions (`REGIONS`) and the calendar events (Tết, `LOCKDOWNS`).
+2. Delete or rename `phase1/data/raw_*.tar.gz` so data is downloaded fresh, and run with `--online`.
+3. **Phase 2** reads only the clean tables (`hanoi_daily.parquet`, `hanoi_hourly_enriched.parquet`) through `HANOI_AQ_DIR`, so it can be reused as is if those tables keep the same columns. Project choices to revisit: season definition, level tiers (≤25 / 25–50 / >50 µg/m³), k for k-means, rule filters, the |z| threshold and the episode definition.
+4. The markdown "reading the results" cells inside the scripts quote numbers from this run (e.g. the `NOTES` dictionary in `_make_notebook_07.py`). After a new run, read the outputs and rewrite those notes.
+
+The project brief and decision log (Vietnamese) are in [docs/project_brief_vi.md](docs/project_brief_vi.md).
 
 ## Repository layout
 
 ```
-phase1/  01–02 notebooks, data/clean (parquet + csv), raw cache (.tar.gz), reports/
-phase2/  03–06 notebooks, data/ (cluster labels, rules, anomalies), reports/ (figures, tables)
+run_pipeline.py  one-command runner for notebooks 01–07 (optionally regenerating them first)
+phase1/  01–02 notebooks + _make_notebook*.py generators, data/clean (parquet + csv), raw cache (.tar.gz), reports/
+phase2/  03–07 notebooks + _make_notebook_0X.py generators, data/ (cluster labels, rules, anomalies,
+         sequences, episodes), reports/ (figures, tables)
 article/ short write-up (EN + VI) with figures; make_figures.py regenerates them
+docs/    project brief and decision log (Vietnamese)
 ```
 
 ## License
